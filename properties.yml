@@ -1,0 +1,18 @@
+---
+# international.qa:
+#   :roles:
+#     - logstash
+
+# beta-web2:
+#   :roles:
+#     - logstash
+#   :ssh_private_key:
+#     - /root/.ssh/dosomething-general.pem
+
+varnish2:
+  :roles:
+    - logstash
+
+staging:
+  :roles:
+    - logstash
